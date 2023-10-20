@@ -3,7 +3,7 @@ WORKDIR /app
 RUN git clone https://github.com/JC21-210617/r05sikaku-kanri.git servlet-source07
 RUN ls -l /app/servlet-source
 COPY ./build.gradle /app/servlet-source/build.gradle
-RUN gradle -p servlet-source war
+RUN gradle -p servlet-source07 war
 
 
 
